@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   <TextView
+           
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="IP:"
+            android:textSize="10pt" />
+        <!-- 输入用户名的文本框 -->
+		<!-- android:text="@+string/ip" -->
+        <EditText
+            android:id="@+id/ipedittext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789."
+            android:hint="请填写服务器IP"
+            android:selectAllOnFocus="true" 
+            android:text="@+string/ip"
+            />
+      <Button  
+            android:id="@+id/camera"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="camera"/>
+       <!-- <Button  
+            android:id="@+id/surfaceview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="surfaceview"/>
+        <Button  
+           android:id="@+id/activity_view"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="activity_view"/> -->
+</LinearLayout>
